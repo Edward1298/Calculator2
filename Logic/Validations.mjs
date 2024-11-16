@@ -8,5 +8,4 @@ export function Validations(num1, num2, operator)
       } else{
         return "ok"
       }
-
 }

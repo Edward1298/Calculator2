@@ -17,7 +17,6 @@ export function Response(message, operator, num1, num2){
                 },  
                 result: message,  
                 timestamp: new Date().toISOString()
-
         }
     }
 }

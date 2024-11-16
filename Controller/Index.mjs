@@ -21,7 +21,6 @@ app.get('/calculate', (req, res) => {
             const answer = Response(validations, operator, num1, num2);
             return res.status(answer.status).json(answer); // Return validation error response
         }
-
         // Fix the empty space problem from the URL
         if (operator === ' ') {
             operator = '+';
